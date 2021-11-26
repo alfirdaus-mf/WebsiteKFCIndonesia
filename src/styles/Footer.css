@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #212121;
+  padding-top: 10px;
+}
+
+.subFooter {
+  background-color: #0b0b0b;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialMedia {
+  text-align: center;
+}
+.socialMedia svg {
+  color: white;
+  margin: 20px 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.footer p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+}
+
+@media only screen and (max-width: 650px) {
+  .subFooter {
+    height: 60px;
+  }
+  .footer p {
+    text-align: center;
+  }
+}
